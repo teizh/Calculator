@@ -62,13 +62,13 @@ android:id="@+id/display"
                 style="@style/Gray.Button"
 
                 android:text="AC"
-
+                android:onClick="onOperationClick"
                 app:cornerRadius="200dp" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/plusMinus"
                 style="@style/Gray.Button"
-
+                android:onClick="onOperationClick"
                 android:layout_marginHorizontal="18dp"
 
                 android:text="+/-" />
@@ -77,12 +77,13 @@ android:id="@+id/display"
                 android:id="@+id/percent"
                 style="@style/Gray.Button"
                 android:layout_marginHorizontal="18dp"
-
+                android:onClick="onOperationClick"
                 android:text="%" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_divide"
                 style="@style/Orange.Button"
+                android:onClick="onOperationClick"
                 android:text="÷" />
 
 
@@ -98,7 +99,7 @@ android:id="@+id/display"
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_7"
                 style="@style/DarkGray.Button"
-
+                android:onClick="onNumberClick"
                 android:text="7"
 
                 app:cornerRadius="200dp" />
@@ -106,7 +107,7 @@ android:id="@+id/display"
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_8"
                 style="@style/DarkGray.Button"
-
+                android:onClick="onNumberClick"
                 android:layout_marginHorizontal="18dp"
 
                 android:text="8" />
@@ -114,12 +115,14 @@ android:id="@+id/display"
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_9"
                 style="@style/DarkGray.Button"
+                android:onClick="onNumberClick"
                 android:layout_marginHorizontal="18dp"
 
                 android:text="9" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_multiply"
+                android:onClick="onOperationClick"
                 style="@style/Orange.Button"
                 android:text="*" />
 
@@ -135,6 +138,7 @@ android:id="@+id/display"
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_4"
+                android:onClick="onNumberClick"
                 style="@style/DarkGray.Button"
 
                 android:text="4"
@@ -143,6 +147,7 @@ android:id="@+id/display"
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_5"
+                android:onClick="onNumberClick"
                 style="@style/DarkGray.Button"
 
                 android:layout_marginHorizontal="18dp"
@@ -152,12 +157,14 @@ android:id="@+id/display"
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_6"
                 style="@style/DarkGray.Button"
+                android:onClick="onNumberClick"
                 android:layout_marginHorizontal="18dp"
 
                 android:text="6" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_minus"
+                android:onClick="onOperationClick"
                 style="@style/Orange.Button"
                 android:text="-" />
 
@@ -173,6 +180,7 @@ android:id="@+id/display"
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_1"
+                android:onClick="onNumberClick"
                 style="@style/DarkGray.Button"
 
                 android:text="1"
@@ -181,6 +189,7 @@ android:id="@+id/display"
 
             <com.google.android.material.button.MaterialButton
                 style="@style/DarkGray.Button"
+                android:onClick="onNumberClick"
                 android:id="@+id/btn_2"
                 android:layout_marginHorizontal="18dp"
 
@@ -188,6 +197,7 @@ android:id="@+id/display"
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_3"
+                android:onClick="onNumberClick"
                 style="@style/DarkGray.Button"
                 android:layout_marginHorizontal="18dp"
 
@@ -195,6 +205,7 @@ android:id="@+id/display"
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_plus"
+                android:onClick="onOperationClick"
                 style="@style/Orange.Button"
                 android:text="+" />
 
@@ -211,6 +222,7 @@ android:id="@+id/display"
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_nul"
                 style="@style/DarkGray.Button"
+                android:onClick="onNumberClick"
                 android:layout_width="178dp"
                 android:paddingStart="32dp"
                 android:text="0"
@@ -222,6 +234,7 @@ android:id="@+id/display"
             <com.google.android.material.button.MaterialButton
 
                 style="@style/DarkGray.Button"
+                android:onClick="onNumberClick"
                 android:layout_marginHorizontal="18dp"
 
                 android:text="."
@@ -229,6 +242,7 @@ android:id="@+id/display"
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/equals"
+                android:onClick="onOperationClick"
                 style="@style/Orange.Button"
                 android:text="=" />
 
